@@ -15,8 +15,7 @@ def create_array(num, a):
 
 
 def find_numbers(col1, col2):
-    fir_set = set(col1)
-    sec_set = set(col2)
+    fir_set, sec_set = set(col1), set(col2)
     main_set = fir_set.intersection(sec_set)
     main_list = list(main_set)
     main_list.sort()
